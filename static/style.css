@@ -1,13 +1,13 @@
-/* Light mode */
+/* <> mode */
 body {
-  background-color: #d6ddec;
-  color: #121717;
+  background-color: #674099;
+  color: #d6ddec;
 }
 
 /* Dark mode */
 .dark-mode {
-  background-color: #121717;
-  color: #c9c9c9;
+  background-color: #674099;
+  color: #d6ddec;
 }
 
 #chat-window {
@@ -28,7 +28,7 @@ body {
   border-radius: 15px;
   display: inline-block;
   position: relative;
-  background-color: #efefef;
+  background-color: #7554A3;
   min-width: 26px;
   border-top-left-radius: 0;
   word-wrap: break-word;
@@ -42,7 +42,7 @@ body {
 
 .message-box.my-text {
   transform: rotateY(180deg);
-  background-color: #e7f9d8;
+  background-color: #FEC20F;
   margin-left:150px;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .message-box.my-text.dark {
-  background-color: #0f4c9e;
+  background-color: #F6971F;
 }
 
 .message-box.dark {
@@ -70,6 +70,7 @@ body {
   border-radius: 40px 0 0 40px;
   background-color: transparent;
   height: auto;
+  color: white;
 }
 
 #send-button {
@@ -116,7 +117,7 @@ body {
 
 #upload-button {
   color: white;
-  background-color: #007bff;
+  background-color: #96C93C;
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
@@ -127,19 +128,19 @@ body {
 }
 
 #upload-button:hover {
-  background-color: #0056b3;
+  background-color: #7AAE3D;
 }
 
 .send i {
   display: block;
   width: 25px;
-  color: #125ee5;
+  color: #121717;
 }
 
 .reset i {
   display: block;
   width: 25px;
-  color: #125ee5;
+  color: #121717;
 }
 
 
@@ -170,7 +171,7 @@ body {
 
 .loading-dots.my-loading {
   transform: rotateY(180deg);
-  background-color: #e7f9d8;
+  background-color: #FEC20F;
   float: right;
 }
 
@@ -180,11 +181,11 @@ body {
   margin: 0 2px;
   border-radius: 50%;
   animation: bounce 1.5s ease-in-out infinite;
-  background: #5a5a5a;
+  background: #F6971F;
 }
 
 .loading-dots.my-loading.dark {
-  background-color: #0e4d9e;
+  background-color: #263443;
 }
 
 .dark {
